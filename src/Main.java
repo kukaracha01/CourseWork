@@ -56,6 +56,7 @@ public class Main {
         System.out.println("Минимальная ЗП в месяц равна " + maximalSalary);
         return;
     }
+
     public static void avarageSalaryEmployees(Employee[] employees) {
         int allExpenses = 0;
         for (int i = 0; i < employees.length; i++) {
